@@ -120,6 +120,10 @@ function bruttoEstimated(tax, netto) {
 
 /* ********************************************************************* EVENTS ******************************************************************** */
 
+/**
+ * set tax rate, brutto price and sign for transactions within eu to dom
+ * 
+ */
 function getTaxRate() {
     let items = document.querySelectorAll('tbody tr')
     for (let i = 0; i < items.length; i++) {
@@ -160,6 +164,7 @@ function getTaxRate() {
 
 /* ***************************************************************************************************************************************** */
 
+/* set data to dom */
 let tbody = document.querySelector('tbody')
 for (let i = 0; i < DATA.length; i++) {
     let tr = document.createElement('tr');
