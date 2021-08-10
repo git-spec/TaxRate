@@ -3,6 +3,11 @@ import { euChecked } from "../actions/euChecked.js";
 import { taxChecked } from "../actions/taxChecked.js";
 import { bruttoEstimated } from "../actions/bruttoEstimated.js";
 
+/**
+ * set tax rate, brutto price and sign for transactions within eu to dom
+ *
+ * @param {Array} data data
+ */
 export function getTaxRate(data) {
   for (let i = 0; i < data.length; i++) {
     let obj = {};

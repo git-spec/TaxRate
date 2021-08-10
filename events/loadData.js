@@ -1,3 +1,9 @@
+/**
+ * set data to dom object
+ *
+ * @param {Object} obj dom object
+ * @param {Array} data data
+ */
 export function loadData(obj, data) {
   obj.innerHTML = "";
   for (let i = 0; i < data.length; i++) {
