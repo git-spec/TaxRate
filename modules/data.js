@@ -65,12 +65,14 @@ const DATA = [
   },
 ];
 
-function setData(arr) {
+function setData(obj) {
   for (let i = 0; i < DATA.length; i++) {
-    if (DATA[i].Lager === arr[i].Lager && DATA[i].Kunde === arr[i].Kunde) {
-      DATA[i].Steuersatz === arr[i].Steuersatz;
-      DATA[i].Brutto === arr[i].Brutto;
-      DATA[i].Markierung === arr[i].Markierung;
+    if (DATA[i].Lager === obj.Lager && DATA[i].Kunde === obj.Kunde) {
+      DATA[i].Steuersatz = obj.Steuersatz;
+      DATA[i].Brutto = obj.Brutto;
+      if (obj.Markierung) {
+        DATA[i].Markierung = obj.Markierung;
+      }
     }
   }
 }
