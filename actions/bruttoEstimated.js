@@ -6,5 +6,6 @@
  * @returns {number} brutto price
  */
 export function bruttoEstimated(tax, netto) {
-  return netto + netto * (tax / 100);
+  let brutto = netto + netto * (tax / 100);
+  return brutto.toFixed(2);
 }

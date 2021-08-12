@@ -9,7 +9,7 @@ export function taxChecked(num) {
     case 1:
       return 19;
     case 2:
-      return 7, 7;
+      return 7.7;
     case 3:
       return 0;
     default:

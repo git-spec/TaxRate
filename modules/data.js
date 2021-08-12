@@ -2,7 +2,7 @@ const DATA = [
   {
     Lager: "DE",
     Kunde: "DE",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -10,7 +10,7 @@ const DATA = [
   {
     Lager: "DE",
     Kunde: "CH",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -18,7 +18,7 @@ const DATA = [
   {
     Lager: "DE",
     Kunde: "FR",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -26,7 +26,7 @@ const DATA = [
   {
     Lager: "DE",
     Kunde: "US",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -34,7 +34,7 @@ const DATA = [
   {
     Lager: "CH",
     Kunde: "CH",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -42,7 +42,7 @@ const DATA = [
   {
     Lager: "CH",
     Kunde: "DE",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -50,7 +50,7 @@ const DATA = [
   {
     Lager: "CH",
     Kunde: "FR",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,
@@ -58,7 +58,7 @@ const DATA = [
   {
     Lager: "CH",
     Kunde: "US",
-    Netto: 135,
+    Netto: 135.00,
     Steuersatz: null,
     Brutto: null,
     Markierung: null,

@@ -5,11 +5,17 @@ import { getTaxRate } from "./events/getTaxRate.js";
 /* set data to dom */
 let tbody = document.querySelector("tbody");
 loadData(tbody, DATA);
+
 /* set event listener for getting tax rate */
 let button = document.querySelector("button");
 button.addEventListener("click", function (e) {
   e.preventDefault;
   loadData(tbody, getTaxRate(DATA));
+  // let test = document.querySelector('tbody tr')
+  // for (let value of test.children) {
+  //   console.log(value.innerText);
+  //   value.innerText == 135 ? console.log(typeof value.innerText) : console.log('nothing')
+  // };
 });
 
 /* ********************************************************************* EVENTS ******************************************************************** */
