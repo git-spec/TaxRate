@@ -5,7 +5,6 @@
  * @param {Array} data array with objects
  */
 export function loadData(obj, data) {
-  console.log(data);
   obj.innerHTML = "";
   for (let i = 0; i < data.length; i++) {
     let tr = document.createElement("tr");
