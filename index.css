@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-variant-numeric: tabular-nums;
+   font-family: system, -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+}
+
+button {
+    display: flex;
+    justify-self: center;
+    padding: .4rem .6rem;
+    margin: 3rem auto;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-spacing: .6rem;
+}
